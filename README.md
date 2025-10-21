@@ -46,10 +46,10 @@ Data were retrieved from the **CAnD3 online learning portal**.
 
 | Variable | Description | Notes |
 |-----------|--------------|-------|
-| `SLM_01` | Self-rated life satisfaction (0–10) | Treated as continuous |
+| `SLM_01` | Self-rated life satisfaction (0-10) | Treated as continuous |
 | `AMB_01` | Aboriginal identity (1 = Yes, 2 = No) | Recoded as factor |
 | `SEX` | Gender (1 = Male, 2 = Female) | Recoded as factor |
-| `MARSTAT` | Marital status (1–6) | Treated as numeric in original; should be factor-coded |
+| `MARSTAT` | Marital status (1-6) | Treated as numeric in original|
 
 ---
 
@@ -102,6 +102,7 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
 
