@@ -1,4 +1,4 @@
-# 📘 Replication Report
+# Replication Report
 
 **Title:** Replication of “Life Satisfaction and Socioeconomic Predictors: An Analysis of the 2017 General Social Survey (GSS)”  
 **Replicator:** [Your Name]  
@@ -24,11 +24,11 @@ All numerical results were successfully reproduced. However, a minor methodologi
 
 | File Name | Description |
 |------------|-------------|
-| `Replication_Report_[YourLastName].pdf` | Completed replication report following AEA Data Editor template |
-| `RRWM_master_script.R` | R script used for replication (reconstructed from master annotations) |
+| `Replication_Report_Lanlan.pdf` | Completed replication report following AEA Data Editor template |
+| `RRWM_Xin.R` | R script used for replication (reconstructed from master annotations) |
 | `RRWM_regression_result_Xin.txt` | Text file containing regression summary and ANOVA results |
 | `RRWM_model_forest.pdf` | Coefficient plot (95% CI) from linear model |
-| `RRWM_assumption_result_Xin.pdf` | Intended diagnostic plot file (blank output; diagnostics assessed manually) |
+| `RRWM_assumption_result.pdf` | Intended diagnostic plot file (blank output; diagnostics assessed manually) |
 | `README.md` | This file |
 
 ---
@@ -107,3 +107,4 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
