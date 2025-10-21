@@ -77,7 +77,7 @@ Data were retrieved from the **CAnD3 online learning portal**.
 
 1. Recode `MARSTAT` as a categorical factor before model estimation.  
 2. Re-run diagnostics and interpret factor contrasts relative to a reference group (e.g., “Married”).  
-3. Provide a separate, well-documented program file for future replication rather than embedding all steps in a single master script.  
+3. Use recommended statistical weights for model validity
 
 ---
 
@@ -100,6 +100,7 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
 
