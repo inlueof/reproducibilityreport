@@ -2,7 +2,7 @@
 
 **Title:** Replication of “Life Satisfaction and Socioeconomic Predictors: An Analysis of the 2017 General Social Survey (GSS)”  
 **Replicator:** Ruth  
-**Software:** RStudio (Version 2025.09.0 Build 387 — “Cucumberleaf Sunflower”)  
+**Software:** RStudio (Version 2025.09.0 Build 387 “Cucumberleaf Sunflower”)  
 **Operating System:** Windows 11  
 **Language:** R  
 
@@ -106,6 +106,7 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
 
