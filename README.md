@@ -37,71 +37,33 @@ All numerical results were successfully reproduced. However, a minor methodologi
 
 **Data Source:**  
 Statistics Canada, *General Social Survey (GSS) 2017 – Family, Cycle 31*.  
-File name: `gss-12M0025-E-2017-c-31_F1.csv`  
-
-**Access:**  
-Data were retrieved from the **CAnD3 online learning portal**.  
-
-**Variables Used:**
-
-| Variable | Description | Notes |
-|-----------|--------------|-------|
-| `SLM_01` | Self-rated life satisfaction (0-10) | Treated as continuous |
-| `AMB_01` | Aboriginal identity (1 = Yes, 2 = No) | Recoded as factor |
-| `SEX` | Gender (1 = Male, 2 = Female) | Recoded as factor |
-| `MARSTAT` | Marital status (1-6) | Treated as numeric in original|
-
 ---
 
-## 4. Replication Steps
-
-1. Imported raw data using `read.csv()`.  
-2. Subsetted required variables (`SLM_01`, `AMB_01`, `SEX`, `MARSTAT`).  
-3. Renamed variables (`feeling_lf`, `aboriginal_id`, `SEX`, `MARSTAT`).  
-4. Filtered invalid or missing codes.  
-5. Generated descriptive statistics (`skim()` and `tbl_summary()`).  
-6. Fit linear regression model  
-7. Performed model diagnostics and ANOVA (`plot(lm_model)`, `anova(lm_model)`).  
-8. Created and saved coefficient plot (`RRWM_model_forest.pdf`).  
-
----
-
-## 5. Replication Findings
-
-- **Computational reproduction:** Achieved - all model outputs matched exactly.   
-- **Classification:** *Full reproduction with minor issues* - all numerical results were identical, but variable treatment and program completeness were imperfect.
-
----
-
-## 6. Recommended Corrections
-
-1. Recode `MARSTAT` as a categorical factor before model estimation.  
-2. Re-run diagnostics and interpret factor contrasts relative to a reference group (e.g., “Married”).  
-3. Use recommended statistical weights for model validity
-
----
-
-## 7. Computing Environment
+## 4. Requirements
 
 | Component | Specification |
 |------------|---------------|
 | **RStudio** | Version 2025.09.0 Build 387 (“Cucumberleaf Sunflower”) |
 | **R** | Version 4.4.1 |
-| **Operating System** | Windows 11 Home |
 | **Packages Used** | `dplyr`, `haven`, `skimr`, `gtsummary`, `emmeans`, `broom`, `ggplot2`, `forcats` |
-| **Replicate Weighting** | Not applied (unweighted linear regression) |
 
 ---
 
-## 8. Acknowledgments
+## 5. Data Accessibility Statement
 
-This replication exercise was completed as part of the **CAnD3 Training Program in Data-Driven Decision-Making**, under the module *Reproducible Research Workflows in R*.  
-All data remain the property of **Statistics Canada**.  
-Analytical interpretations are solely those of the replicator.
+Data used in this exercise were obtained through ODESI, a service provided by the Ontario Council of University Libraries (https://search1.odesi.ca/#/
+
+Access is restricted to those users who have a DLI License and can be used for statistical and research purposes. The terms and more information about the license can be viewed here (https://www.statcan.gc.ca/en/microdata/dli
+
+As part of McGill University, the CAnD3 initiative has a license to use the data for the purposes of training. Those outside of McGill university should not use the data provided through CAnD3's training activities for purposes not related to their CAnD3 training.
+
+Fellows who belong to another DLI institution should re-download the data using the ODESI site using the login provided by their institution if they wish to make use of the data for other purposes.
 
 ---
 
+## 6. Data Citation
 
+Statistics Canada. 2020. General Social Survey, Cycle 31, 2017 [Canada]: Family (version 2020-09). Statistics Canada [producer and distributor], accessed September 10, 2021. ID: gss-12M0025-E-2017-c-31
 
 
 
