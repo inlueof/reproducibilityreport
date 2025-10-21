@@ -1,13 +1,4 @@
-# Replication Report
-
-**Title:** Replication of “Life Satisfaction and Socioeconomic Predictors: An Analysis of the 2017 General Social Survey (GSS)”  
-**Replicator:** Ruth  
-**Software:** RStudio (Version 2025.09.0 Build 387 “Cucumberleaf Sunflower”)  
-**Operating System:** Windows 11  
-**Language:** R  
-
-
----
+# Replication of “Life Satisfaction and Socioeconomic Predictors: An Analysis of the 2017 General Social Survey (GSS)”  
 
 ## 1. Overview
 
@@ -64,6 +55,7 @@ Fellows who belong to another DLI institution should re-download the data using 
 ## 6. Data Citation
 
 Statistics Canada. 2020. General Social Survey, Cycle 31, 2017 [Canada]: Family (version 2020-09). Statistics Canada [producer and distributor], accessed September 10, 2021. ID: gss-12M0025-E-2017-c-31
+
 
 
 
