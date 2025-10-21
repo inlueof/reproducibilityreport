@@ -15,7 +15,7 @@ This replication report reproduces the linear regression analysis predicting **l
 
 The replication was based on a **master R script** provided by the author; no separate modular program file was included. The analysis was reproduced by following the master script’s annotations, replicating each data cleaning, modeling, and output step.
 
-All numerical results were successfully reproduced. However, a minor methodological issue was identified — the marital status variable (`MARSTAT`) was treated as **numeric** rather than **categorical**, resulting in a conceptually invalid specification despite computational reproducibility.
+All numerical results were successfully reproduced. However, a minor methodological issue was identified, the marital status variable (`MARSTAT`) was treated as **numeric** rather than **categorical**, resulting in a conceptually invalid specification despite computational reproducibility.
 
 ---
 
@@ -106,6 +106,7 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
 
