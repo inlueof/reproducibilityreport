@@ -63,7 +63,6 @@ Data were retrieved from the **CAnD3 online learning portal**.
 6. Fit linear regression model  
 7. Performed model diagnostics and ANOVA (`plot(lm_model)`, `anova(lm_model)`).  
 8. Created and saved coefficient plot (`RRWM_model_forest.pdf`).  
-9. Exported regression output to text file using `sink()`.  
 
 ---
 
@@ -103,6 +102,7 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
 
