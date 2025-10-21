@@ -42,7 +42,6 @@ File name: `gss-12M0025-E-2017-c-31_F1.csv`
 
 **Access:**  
 Data were retrieved from the **CAnD3 online learning portal**.  
-This dataset contains publicly available variables on social and family characteristics for Canadian respondents aged 15+.
 
 **Variables Used:**
 
@@ -108,6 +107,7 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
 
