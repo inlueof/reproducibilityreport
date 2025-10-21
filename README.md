@@ -33,10 +33,10 @@ All numerical results were successfully reproduced. However, a minor methodologi
 
 ---
 
-## 3. Data Description
+## 3. Data Source
+ 
+Statistics Canada, *General Social Survey (GSS) 2017 – Family, Cycle 31.  
 
-**Data Source:**  
-Statistics Canada, *General Social Survey (GSS) 2017 – Family, Cycle 31*.  
 ---
 
 ## 4. Requirements
@@ -64,6 +64,7 @@ Fellows who belong to another DLI institution should re-download the data using 
 ## 6. Data Citation
 
 Statistics Canada. 2020. General Social Survey, Cycle 31, 2017 [Canada]: Family (version 2020-09). Statistics Canada [producer and distributor], accessed September 10, 2021. ID: gss-12M0025-E-2017-c-31
+
 
 
 
