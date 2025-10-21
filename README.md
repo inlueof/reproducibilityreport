@@ -68,9 +68,7 @@ Data were retrieved from the **CAnD3 online learning portal**.
 
 ## 5. Replication Findings
 
-- **Computational reproduction:** Achieved - all model outputs matched exactly.  
-- **Methodological validity:** Partially met - the variable `MARSTAT` was mis-specified (numeric instead of categorical).  
-- **Diagnostics:** Residual plots show acceptable patterns, though not all regression assumptions were explicitly discussed by the author.  
+- **Computational reproduction:** Achieved - all model outputs matched exactly.   
 - **Classification:** *Full reproduction with minor issues* - all numerical results were identical, but variable treatment and program completeness were imperfect.
 
 ---
@@ -102,6 +100,7 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
 
