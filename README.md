@@ -26,7 +26,7 @@ All numerical results were successfully reproduced. However, a minor methodologi
 |------------|-------------|
 | `Replication_Report_Lanlan.pdf` | Completed replication report following AEA Data Editor template |
 | `Replicated Markup.R` | R script used for replication (reconstructed from master annotations) |
-| 'RRWM_Xin.R'| Lanlan's original script|
+| `RRWM_Xin.R`| Lanlan's original script|
 | `RRWM_regression_result_Xin.txt` | Text file containing regression summary and ANOVA results |
 | `RRWM_model_forest.pdf` | Coefficient plot (95% CI) from linear model |
 | `RRWM_assumption_result.pdf` | Intended diagnostic plot file (blank output; diagnostics assessed manually) |
@@ -108,5 +108,6 @@ All data remain the property of **Statistics Canada**.
 Analytical interpretations are solely those of the replicator.
 
 ---
+
 
 
